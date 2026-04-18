@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lumari — Hesap Silme Talebi</title>
+<meta name="description" content="Lumari uygulamasında hesabınızı ve ilişkili verilerinizi nasıl silebilirsiniz.">
+<meta name="robots" content="index, follow">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.7;
+    color: #1a202c;
+    background: #ffffff;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 24px 80px; }
+  header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ec4899;
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+    color: #0d1b2a;
+  }
+  .sub { color: #64748b; font-size: 14px; margin: 0; }
+  h2 {
+    font-size: 20px;
+    color: #0d1b2a;
+    margin: 32px 0 12px;
+  }
+  p, li { color: #334155; font-size: 15px; }
+  ul, ol { padding-left: 22px; margin: 8px 0 16px; }
+  li { margin: 6px 0; }
+  .brand { color: #ec4899; font-weight: 600; }
+  .card {
+    background: #fff4f9;
+    border-left: 4px solid #ec4899;
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin: 16px 0;
+  }
+  .card.dark {
+    background: #f1f5f9;
+    border-left-color: #64748b;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+  }
+  th { background: #f8fafc; color: #0d1b2a; font-weight: 600; }
+  .ok { color: #059669; font-weight: 600; }
+  .ret { color: #d97706; font-weight: 600; }
+  .muted { color: #64748b; font-size: 13px; margin-top: 48px; text-align: center; }
+  a { color: #ec4899; }
+  code {
+    background: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0d1b2a; color: #e2e8f0; }
+    h1, h2 { color: #f1f5f9; }
+    p, li { color: #cbd5e1; }
+    .card { background: #1e293b; }
+    .card.dark { background: #1e293b; border-left-color: #475569; }
+    th { background: #1e293b; color: #f1f5f9; }
+    th, td { border-bottom-color: #334155; }
+    .muted { color: #94a3b8; }
+    code { background: #1e293b; color: #e2e8f0; }
+  }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1><span class="brand">Lumari</span> — Hesap Silme Talebi</h1>
+      <p class="sub">Hesabınızı ve ilişkili verilerinizi kalıcı olarak nasıl silebilirsiniz</p>
+    </header>
+
+    <p>Lumari, kullanıcı hesaplarının ve ilişkili kişisel verilerin kolayca silinmesine olanak sağlar. İki yöntemden birini kullanabilirsiniz:</p>
+
+    <h2>Yöntem 1 — Uygulama içinden (Önerilen, anında silme)</h2>
+    <div class="card">
+      <ol>
+        <li>Lumari uygulamasını açın ve hesabınıza giriş yapın.</li>
+        <li>Alt barda <strong>Profil</strong> sekmesine dokunun.</li>
+        <li>Sağ üstteki dişli ikonundan <strong>Ayarlar</strong>'a girin.</li>
+        <li>Listenin en altındaki <strong>"Hesabı Sil"</strong> butonuna dokunun.</li>
+        <li>Onay diyaloğunda <strong>"Hesabımı Sil"</strong> tuşuna basın.</li>
+      </ol>
+      <p style="margin:8px 0 0"><strong>Sonuç:</strong> Hesabınız ve tüm kişisel verileriniz anında silinir. İşlem geri alınamaz.</p>
+    </div>
+
+    <h2>Yöntem 2 — E-posta ile talep</h2>
+    <p>Uygulamaya erişiminiz yoksa (şifre unutma, banlanma vb.), aşağıdaki bilgilerle bize e-posta gönderin:</p>
+    <div class="card dark">
+      <p style="margin:0 0 8px"><strong>E-posta adresi:</strong> <a href="mailto:lumari.destek@gmail.com">lumari.destek@gmail.com</a></p>
+      <p style="margin:0 0 8px"><strong>Konu:</strong> Hesap Silme Talebi</p>
+      <p style="margin:0"><strong>İçerik:</strong></p>
+      <ul style="margin:4px 0 0">
+        <li>Kullanıcı adınız</li>
+        <li>Hesap oluştururken kullandığınız e-posta (varsa)</li>
+        <li>Kısa bir açıklama ("Hesabımın silinmesini talep ediyorum")</li>
+      </ul>
+    </div>
+    <p>Talebiniz <strong>7 iş günü</strong> içinde işleme alınır. Onaylama için size yanıt e-postası gönderilir.</p>
+
+    <h2>Silinen ve Saklanan Veriler</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Veri Türü</th>
+          <th>Durum</th>
+          <th>Not</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kullanıcı adı, ad, doğum tarihi, cinsiyet</td>
+          <td class="ok">Silinir</td>
+          <td>Anında</td>
+        </tr>
+        <tr>
+          <td>E-posta, şehir, bio, ilgi alanları</td>
+          <td class="ok">Silinir</td>
+          <td>Anında</td>
+        </tr>
+        <tr>
+          <td>Fotoğraflar, hikâyeler</td>
+          <td class="ok">Silinir</td>
+          <td>Anında</td>
+        </tr>
+        <tr>
+          <td>Gönderilen ve alınan mesajlar</td>
+          <td class="ok">Silinir</td>
+          <td>Anında</td>
+        </tr>
+        <tr>
+          <td>Eşleşmeler, beğeniler, hikâye görüntüleme</td>
+          <td class="ok">Silinir</td>
+          <td>Anında</td>
+        </tr>
+        <tr>
+          <td>Konum verisi (şehir, yaklaşık koordinat)</td>
+          <td class="ok">Silinir</td>
+          <td>Anında</td>
+        </tr>
+        <tr>
+          <td>Cihaz kimliği (deviceId)</td>
+          <td class="ok">Silinir</td>
+          <td>Anında</td>
+        </tr>
+        <tr>
+          <td>Şifre hash'i</td>
+          <td class="ok">Silinir</td>
+          <td>Anında</td>
+        </tr>
+        <tr>
+          <td>Satın alma geçmişi (fatura kayıtları)</td>
+          <td class="ret">Anonimleştirilir</td>
+          <td>Vergi / muhasebe zorunluluğu — Türkiye Vergi Usul Kanunu 10 yıl (kişisel bağ koparılır, sadece toplam tutarlar saklanır)</td>
+        </tr>
+        <tr>
+          <td>Güvenlik / dolandırıcılık günlükleri</td>
+          <td class="ret">Anonimleştirilir</td>
+          <td>Kötüye kullanım önleme — 6 ay (kişisel bağ koparılır)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Sık Sorulan Sorular</h2>
+
+    <p><strong>Hesabımı silince coinlerim ve VIP üyeliğim ne olur?</strong><br>
+    Satın aldığınız coin ve VIP üyelikleri silinir, iade edilmez. Kullanım Koşulları'nın 9. maddesi uyarınca hesap kapatıldığında bu içerikler geri kazandırılamaz.</p>
+
+    <p><strong>Silme işlemini geri alabilir miyim?</strong><br>
+    Hayır, silme işlemi kalıcıdır ve geri alınamaz. Aynı kullanıcı adıyla yeniden kayıt olmak isterseniz sistemin kullanımına bağlıdır.</p>
+
+    <p><strong>Ne kadar sürede silinir?</strong><br>
+    Uygulama içi silme talebi <strong>anında</strong> işlenir. E-posta talepleri <strong>7 iş günü</strong> içinde yanıtlanır.</p>
+
+    <p><strong>Verilerim yedeklerden de silinir mi?</strong><br>
+    Aktif veritabanından hemen silinir. Yedekleme sistemlerinden <strong>30 gün</strong> içinde döngüsel yedek rotasyonu ile silinir.</p>
+
+    <h2>İletişim</h2>
+    <p>Soru ve geri bildirimleriniz için:</p>
+    <ul>
+      <li><a href="mailto:lumari.destek@gmail.com">lumari.destek@gmail.com</a></li>
+      <li>Uygulama içinden: <em>Ayarlar → Destek</em></li>
+    </ul>
+
+    <p class="muted">
+      © 2026 Lumari. Tüm hakları saklıdır. ·
+      <a href="/lumari-legal/privacy.html">Gizlilik Politikası</a> ·
+      <a href="/lumari-legal/terms.html">Kullanım Koşulları</a>
+    </p>
+  </main>
+</body>
+</html>
